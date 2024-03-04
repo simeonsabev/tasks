@@ -29,9 +29,6 @@ export function TwoDice(): JSX.Element {
     const rollRight = () => {
         setRightDie(d6());
     };
-    // Check if the dice values match
-    const isWin = leftDie === rightDie && leftDie !== 1;
-
     return (
         <div>
             <span data-testid="left-die">{leftDie}</span>
