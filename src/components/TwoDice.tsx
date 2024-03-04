@@ -35,7 +35,9 @@ export function TwoDice(): JSX.Element {
             {leftDie === rightDie && leftDie !== 1 && (
                 <div>You rolled a pair. You win!</div>
             )}
-            {leftDie !== rightDie && <div>Keep rolling!</div>}
+            {leftDie !== rightDie && (
+                <div>Keep rolling the game is not over yet!</div>
+            )}
         </div>
     );
 }
