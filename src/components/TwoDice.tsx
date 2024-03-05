@@ -44,7 +44,8 @@ export function TwoDice(): JSX.Element {
             {leftDie !== rightDie && <div>Keep trying!</div>}
         </div>
     );
-    /*
+}
+/*
     return (
         <div>
             <span data-testid="left-die">{leftDie}</span>
@@ -59,4 +60,3 @@ export function TwoDice(): JSX.Element {
             )}
         </div>
     );*/
-}
