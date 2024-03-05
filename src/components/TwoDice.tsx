@@ -11,7 +11,7 @@ import { Button } from "react-bootstrap";
     return 1 + Math.floor(Math.random() * 6);
 }
 
-export function TwoDice(): JSX.Element {
+export function TwoDice(): JSX.Elemexnt {
     return <div>Two Dice</div>;
 }*/
 export function d6(): number {
