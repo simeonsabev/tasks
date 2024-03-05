@@ -14,6 +14,7 @@ export function App(): JSX.Element {
                 UD CISC275 with React Hooks and TypeScript Simeon Sabev Hello
                 World
             </header>
+
             <Counter></Counter>
             <p></p>
             <RevealAnswer></RevealAnswer>
