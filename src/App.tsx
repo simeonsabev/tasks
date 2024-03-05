@@ -1,5 +1,4 @@
 import React from "react";
-import { Button, Container, Row, Col } from "react-bootstrap";
 import "./App.css";
 import { ChangeType } from "./components/ChangeType";
 import { RevealAnswer } from "./components/RevealAnswer";
@@ -15,12 +14,6 @@ export function App(): JSX.Element {
                 UD CISC275 with React Hooks and TypeScript Simeon Sabev Hello
                 World
             </header>
-            <TwoDice></TwoDice>
-            <CycleHoliday></CycleHoliday>
-            <StartAttempt></StartAttempt>
-            <ChangeType></ChangeType>
-            <RevealAnswer></RevealAnswer>
-            <Counter></Counter>
         </div>
     );
 }
